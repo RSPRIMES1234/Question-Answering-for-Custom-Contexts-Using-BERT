@@ -1,7 +1,7 @@
-### Question-Answering-for-Custom-Contexts-Using-BERT  
+# Question-Answering-for-Custom-Contexts-Using-BERT  
 This project demonstrates the use of a BERT model for question answering tasks on any given context. It showcases how to process long texts, handle multiple questions, and extract answers with confidence scores, making it adaptable for various domains and use cases.
 
-# Features
+## Features
 
 - Flexible context input: Use any text as your knowledge base
 - BERT-powered question answering
@@ -10,7 +10,7 @@ This project demonstrates the use of a BERT model for question answering tasks o
 - Answer confidence scoring
 
 
-# Requirements
+## Requirements
 
 - Python 3.6+  
 - torch  
@@ -19,7 +19,7 @@ This project demonstrates the use of a BERT model for question answering tasks o
 - numpy
 
 
-# Installation
+## Installation
 
 1. Clone this repository:
 ```python
@@ -30,7 +30,7 @@ cd Question-Answering-for-Custom-Contexts-Using-BERT
 ```python
 pip install torch transformers scipy numpy
 ```
-# Usage
+## Usage
 
 1. Open the main script and modify the `context` variable with your desired text.  
 
@@ -44,14 +44,14 @@ python main.py
 4. The script will process your context and answer the provided questions, printing the answers along with their confidence scores.
 
 
-# Customization
+## Customization
 
 - Context: Replace the existing text in the `context` variable with any text you want to query.
 - Questions: Modify the `questions` list to include any questions relevant to your context.
 - Model: You can experiment with different BERT models by changing the `model_name` variable.
 
 
-# How it works
+## How it works
 
 1. The script loads a pre-trained BERT model for question answering.  
 2. It splits the context into manageable chunks for processing long texts.  
@@ -60,7 +60,7 @@ python main.py
 5. Finally, it outputs the best answers for all questions.  
 
 
-# Applications
+## Applications
 
 This tool can be used for various applications, including but not limited to:
 - Automated FAQ systems  
@@ -69,7 +69,7 @@ This tool can be used for various applications, including but not limited to:
 - Research assistance for quick information retrieval
 
 
-# Limitations
+## Limitations
 
 - The model's performance depends on the quality and relevance of the provided context.  
 - It may not always provide accurate answers, especially for questions not directly addressed in the context.  
