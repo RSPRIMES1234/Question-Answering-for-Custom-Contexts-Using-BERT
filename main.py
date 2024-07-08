@@ -89,4 +89,6 @@ for chunk in chunked_sentences:
                 answers[question] = (answer, score)
 
 # Print the final answers
-print(answers)
+for answerr in answers:
+    print(answerr,answers[answerr][0],sep=" ")
+    print("Probablity Score :",answers[answerr][1])
