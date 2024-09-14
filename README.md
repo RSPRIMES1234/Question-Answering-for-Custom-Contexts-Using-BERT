@@ -12,7 +12,7 @@ This project demonstrates the use of a BERT model for question answering tasks o
 
 ## Requirements
 
-- Python 3.8+  
+- Python 3.7+  
 - torch  
 - transformers  
 - scipy  
